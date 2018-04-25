@@ -26,11 +26,11 @@ public class MainFragment extends Fragment{
    //      Replace Fragment
           getActivity().getSupportFragmentManager()
           .beginTransaction()
-          .replace(R.id.contentMainFragment, new RegisterFragment())
+          .replace(R.id.contentMainFragment, new Registerfragment())
           .addToBackStack(null)
           .commit();
 
-          
+
             }
         });
 
